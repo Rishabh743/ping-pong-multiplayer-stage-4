@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ping Pong
+    </title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBjwL78hLfcENWU1siRWqBaSuvifDztMCA",
+  authDomain: "ping-pong-2af23.firebaseapp.com",
+  projectId: "ping-pong-2af23",
+  storageBucket: "ping-pong-2af23.appspot.com",
+  messagingSenderId: "922647165063",
+  appId: "1:922647165063:web:24f504006ecdab5d4e2022"
+
+  };
+
+      
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+     
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
